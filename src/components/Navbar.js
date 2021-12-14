@@ -11,7 +11,8 @@ export default function Navbar() {
 const styles = {
     topper:{
         color: "#fff",
-        backgroundColor: "#1a2478",
+        backgroundColor: "rgba(0,0,0,.9)",
+        
         borderRadius: "5px",
     }
 }

@@ -1,13 +1,20 @@
 import Navbar from "./components/Navbar";
 import "./App.css";
 import Mcol from "./components/MenuCollection";
+import ShowOrders from "./components/ShowOrders";
+import Credits from "./components/Credits";
+import AddItem from "./components/AddItem";
 
 function App() {
   return (
     <div className="App">
       <Navbar />
-      Keep refreshing page to see updated values
+      <div ><p>Have patience after pressing the add button.</p> Pickout eveythin u want! Don't forget soup!</div>      
+      <br />
       <Mcol />
+      <AddItem />
+      <ShowOrders />
+      <Credits />
     </div>
   );
 }

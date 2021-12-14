@@ -21,7 +21,7 @@ export default function Mcol() {
   return (
     <div>
       {menuImages.map((one) => {
-        return (<img key={one.source} alt="Menu was here" src={one.source} />);
+        return (<a href={one.source} key={one.source+"sa"}><img key={one.source} alt="Menu was here" src={one.source} style={{margin: "5px", maxWidth: "80%", height: "auto", borderRadius: "10px"}} /></a>);
       })}
     </div>
   );
